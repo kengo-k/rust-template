@@ -1,3 +1,15 @@
 pub fn hello() {
     println!("Hello, from lib.rs!");
 }
+
+/// Adds two integers together.
+///
+/// # Examples
+///
+/// ```
+/// let result = rust_basic_structure::plus(5, 10);
+/// assert_eq!(result, 15);
+/// ```
+pub fn plus(a: i32, b: i32) -> i32 {
+    a + b
+}
