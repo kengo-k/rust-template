@@ -34,3 +34,32 @@ $ rustup component add rustfmt
 ### Rustのソースコードフォーマットを調整する
 
 基本的にはデフォルトの設定をそのまま使えば問題ないので調整は必要ない。それでも調整を行いたい場合は、[`.rustfmt.toml`](.rustfmt.toml)ファイルに設定を追加することで、デフォルトの設定に対する上書き、または追加を行うことができる。
+
+## プロジェクトをビルドする
+
+下記コマンドでプロジェクトのビルドを行う。
+
+```
+$ cargo build
+```
+
+ビルドに成功すると1つのバイナリとライブラリが`target`ディレクトリ内に生成される。
+
+## プロジェクトを実行する
+
+複数バイナリが存在する場合は、どのバイナリを実行するかを指定してcargo runを実行する。
+
+```
+$ cargo run --bin main2
+    Finished dev [unoptimized + debuginfo] target(s) in 0.00s
+     Running `target/debug/main2`
+Hello, main2!
+```
+
+## テストを実行する
+
+下記のコマンドで全てのテストを実行する
+
+```
+$ cargo test
+```
