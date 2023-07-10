@@ -1,4 +1,4 @@
-use rust_basic_structure::hello;
+use rust_simple_template::hello;
 
 fn main() {
     hello();

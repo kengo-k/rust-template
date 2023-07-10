@@ -1,4 +1,4 @@
-use rust_basic_structure::plus;
+use rust_simple_template::plus;
 
 #[test]
 fn test_plus() {

@@ -1,5 +1,5 @@
 [package]
-name = "rust-basic-structure"
+name = "rust-simple-template"
 version = "0.1.0"
 edition = "2021"
 

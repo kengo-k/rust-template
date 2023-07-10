@@ -7,7 +7,7 @@ pub fn hello() {
 /// # Examples
 ///
 /// ```
-/// let result = rust_basic_structure::plus(5, 10);
+/// let result = rust_simple_template::plus(5, 10);
 /// assert_eq!(result, 15);
 /// ```
 pub fn plus(a: i32, b: i32) -> i32 {
